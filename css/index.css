@@ -144,3 +144,90 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*  my css additions below */
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:2%;
+    margin: 0 auto;
+}
+nav img,a{
+    display:flex;
+    align-items: flex-end;
+}
+nav a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+.jumbo{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dotted black;
+    justify-content: space-between;
+    margin:3% auto;
+    padding-bottom:3%;
+    }
+
+.middle{
+    width:48%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 3%;
+    padding top:3%;
+    margin-top:5%;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    height:10%;
+    border: 2px solid black;
+
+}
+
+.bun{
+    padding-bottom: 3%;
+}
