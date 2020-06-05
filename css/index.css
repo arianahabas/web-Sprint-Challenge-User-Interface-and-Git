@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -205,29 +206,39 @@ nav a{
 .content{
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px dotted black;
     justify-content: space-between;
     margin:3% auto;
     padding-bottom:3%;
+    border-top: 1px dashed black;
     }
 
 .middle{
     width:48%;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
     padding-bottom: 3%;
-    padding top:3%;
-    margin-top:5%;
+    margin-top:3%;
+}
+
+.middle img,h2,p,button{
+    margin:3%;
 }
 
 button{
     background-color: white;
     border-radius: 5px;
-    width: 30%;
+    width: 35%;
     height:10%;
     border: 2px solid black;
-
+    font-weight: bold;
+    font-size: 16px;
 }
 
-.bun{
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.bottom{
     padding-bottom: 3%;
 }
+
