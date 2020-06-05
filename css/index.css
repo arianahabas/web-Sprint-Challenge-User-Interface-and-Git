@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -144,3 +145,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*  my css additions below */
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-right:2%;
+    margin: 0 auto;
+}
+nav img,a{
+    display:flex;
+    align-items: flex-end;
+}
+nav a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+.jumbo{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:3% auto;
+    padding-bottom:3%;
+    border-top: 1px dashed black;
+    }
+
+.middle{
+    width:48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    margin-top:3%;
+}
+
+.middle img,h2,p,button{
+    margin:3%;
+}
+
+button{
+    background-color: white;
+    border-radius: 5px;
+    width: 35%;
+    height:10%;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.bottom{
+    padding-bottom: 3%;
+}
+
+.contentTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:3% auto;
+    padding-bottom:3%;
+    border-top: 1px dashed black;
+    }
